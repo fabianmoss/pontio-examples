@@ -582,7 +582,7 @@
                                 <layer xml:id="m-385" n="1">
                                     <note xml:id="m-386" dur="2" dur.ppq="512" oct="4" pname="d" pnum="62" stem.dir="up" tstamp.real="00:01:24"/>
                                     <note xml:id="m-387" dur="2" dur.ppq="512" oct="4" pname="c" pnum="61" stem.dir="up" tstamp.real="00:01:25.2">
-                                        <accid xml:id="m-388" accid="s"/>
+                                        <accid xml:id="m-388" accid="s" func="edit"/>
                                     </note>
                                 </layer>
                             </staff>
