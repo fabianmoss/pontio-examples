@@ -22,13 +22,12 @@
             <score>
                <scoreDef>
                   <staffGrp>
-                     <staffDef n="1" lines="5">
+                     <staffDef n="1" lines="5" >
                         <clef shape="G" line="2" dis="8" dis.place="below" />
                      </staffDef>
                   </staffGrp>
                </scoreDef>
                <section xml:id="s1">
-                  <pb />
                   <measure xml:id="m1j1fv6k" n="1">
                      <staff xml:id="m1s1" n="1">
                         <layer xml:id="m1s1l1" n="1">
