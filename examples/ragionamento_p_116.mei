@@ -37,7 +37,7 @@
          <mdiv>
             <score>
                <scoreDef>
-                  <staffGrp>
+                  <staffGrp bar.thru="true">
                      <staffDef n="1" lines="5" meter.sym="cut">
                         <instrDef midi.instrnum="0" />
                         <clef shape="G" line="2" />
@@ -188,7 +188,7 @@
                         <layer xml:id="m10s1l1" n="1">
                            <note xml:id="n1dt7eft" dur="2" pname="d" oct="5" stem.dir="down" />
                            <note xml:id="n1mw6eci" dur="2" pname="c" oct="5" stem.dir="down">
-                              <accid xml:id="anun1dj" accid="s" />
+                              <accid xml:id="anun1dj" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>
@@ -430,7 +430,7 @@
                         <layer xml:id="m26s1l1" n="1">
                            <note xml:id="n1ocgl7y" dur="2" pname="a" oct="4" stem.dir="up" />
                            <note xml:id="nz93kbg" dur="2" pname="g" oct="4" stem.dir="up">
-                              <accid xml:id="a14b43g0" accid="s" />
+                              <accid xml:id="a14b43g0" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>
@@ -490,7 +490,7 @@
                         <layer xml:id="m30s1l1" n="1">
                            <note xml:id="n1qccir2" dur="2" pname="g" oct="4" stem.dir="up" />
                            <note xml:id="n1a2muix" dur="2" pname="f" oct="4" stem.dir="up">
-                              <accid xml:id="a1jjteuv" accid="s" />
+                              <accid xml:id="a1jjteuv" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>

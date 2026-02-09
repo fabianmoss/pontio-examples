@@ -12,25 +12,9 @@
          </titleStmt>
          <pubStmt xml:id="m-17">
             <availability xml:id="m-18">
-               <useRestrict xml:id="m-19" />
             </availability>
          </pubStmt>
       </fileDesc>
-      <encodingDesc xml:id="m-5">
-         <appInfo xml:id="m-6">
-            <application xml:id="sibelius" isodate="2025-10-31T14:26:45Z" version="20230800">
-               <name xml:id="m-8" type="operating-system">Mac OS X Mountain Lion</name>
-            </application>
-            <application xml:id="sibmei" type="plugin" version="4.2.0">
-               <name xml:id="m-10">Sibelius to MEI 4.0.1 Exporter (4.2.0)</name>
-            </application>
-         </appInfo>
-      </encodingDesc>
-      <workList xml:id="m-11">
-         <work xml:id="m-12">
-            <title xml:id="m-13" />
-         </work>
-      </workList>
    </meiHead>
    <music>
       <body>

@@ -37,7 +37,7 @@
          <mdiv>
             <score>
                <scoreDef>
-                  <staffGrp>
+                  <staffGrp bar.thru="true">
                      <staffDef n="1" lines="5">
                         <instrDef midi.instrnum="0" />
                         <clef shape="G" line="2" />

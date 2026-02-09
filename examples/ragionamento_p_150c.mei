@@ -37,7 +37,7 @@
          <mdiv>
             <score>
                <scoreDef>
-                  <staffGrp>
+                  <staffGrp bar.thru="true">
                      <staffDef n="1" lines="5" trans.diat="-7" trans.semi="-12">
                         <instrDef midi.instrnum="0" />
                         <clef shape="G" line="2" dis="8" dis.place="below" />
@@ -100,10 +100,10 @@
                      <staff xml:id="m4s1" n="1">
                         <layer xml:id="m4s1l1" n="1">
                            <note xml:id="ny7bude" dur="2" pname="c" oct="4" stem.dir="down">
-                              <accid xml:id="a19ujioo" accid="s" />
+                              <accid xml:id="a19ujioo" accid="s" func="edit" />
                            </note>
                            <note xml:id="n12szhra" dur="2" pname="c" oct="4" stem.dir="down">
-                              <accid xml:id="amslay7" accid="s" />
+                              <accid xml:id="amslay7" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>
@@ -139,7 +139,7 @@
                      <staff xml:id="m6s2" n="2">
                         <layer xml:id="m6s2l1" n="1">
                            <note xml:id="nn28rhg" dur="1" pname="b" oct="3" stem.dir="down">
-                              <accid xml:id="aveaidx" accid="f" />
+                              <accid xml:id="aveaidx" accid="f" func="edit" />
                            </note>
                         </layer>
                      </staff>
@@ -168,7 +168,7 @@
                      <staff xml:id="m8s1" n="1">
                         <layer xml:id="m8s1l1" n="1">
                            <note xml:id="np6gaw1" dur="1" pname="c" oct="4" stem.dir="down">
-                              <accid xml:id="a1bg143" accid="s" />
+                              <accid xml:id="a1bg143" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>

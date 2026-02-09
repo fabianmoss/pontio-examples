@@ -37,7 +37,7 @@
          <mdiv>
             <score>
                <scoreDef>
-                  <staffGrp>
+                  <staffGrp bar.thru="true">
                      <staffDef n="1" lines="5" meter.sym="cut">
                         <instrDef midi.instrnum="0" />
                         <clef shape="G" line="2" />
@@ -208,7 +208,7 @@
                         <layer xml:id="m12s1l1" n="1">
                            <note xml:id="n14up6da" dur="2" pname="d" oct="5" stem.dir="down" />
                            <note xml:id="nol5xrs" dur="2" pname="c" oct="5" stem.dir="down">
-                              <accid xml:id="a1m1n98" accid="s" />
+                              <accid xml:id="a1m1n98" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>
@@ -269,7 +269,7 @@
                         <layer xml:id="m16s1l1" n="1">
                            <note xml:id="n1lfjado" dur="2" pname="a" oct="4" stem.dir="up" />
                            <note xml:id="n1h9zykj" dur="2" pname="g" oct="4" stem.dir="up">
-                              <accid xml:id="a1u13gvu" accid="s" />
+                              <accid xml:id="a1u13gvu" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>
@@ -314,7 +314,7 @@
                         <layer xml:id="m19s1l1" n="1">
                            <note xml:id="n2sljkr" dur="2" pname="g" oct="4" stem.dir="up" />
                            <note xml:id="nfjeb81" dur="2" pname="f" oct="4" stem.dir="up">
-                              <accid xml:id="av8tupf" accid="s" />
+                              <accid xml:id="av8tupf" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>
@@ -360,7 +360,7 @@
                         <layer xml:id="m22s1l1" n="1">
                            <note xml:id="nslbxpf" dur="2" pname="d" oct="4" stem.dir="up" />
                            <note xml:id="n7bgtwt" dur="2" pname="c" oct="4" stem.dir="up">
-                              <accid xml:id="a5vg3e9" accid="s" />
+                              <accid xml:id="a5vg3e9" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>

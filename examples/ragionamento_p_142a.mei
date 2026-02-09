@@ -37,7 +37,7 @@
          <mdiv>
             <score>
                <scoreDef>
-                  <staffGrp>
+                  <staffGrp bar.thru="true">
                      <staffDef n="1" lines="5" meter.sym="cut" trans.diat="-7" trans.semi="-12">
                         <instrDef midi.instrnum="0" />
                         <clef shape="G" line="2" dis="8" dis.place="below" />
@@ -135,7 +135,7 @@
                      </staff>
                   </measure>
                   <sb />
-                  <scoreDef meter.count="3" meter.unit="1" />
+                  <scoreDef mensur.sign="O" mensur.slash="1" />
                   <measure xml:id="m1ogt6y4" n="7">
                      <staff xml:id="m7s1" n="1">
                         <layer xml:id="m7s1l1" n="1">
@@ -151,8 +151,6 @@
                            <note xml:id="nii9r80" dur="1" pname="d" oct="3" />
                         </layer>
                      </staff>
-                     <dir xml:id="d2b47h1" startid="#n1tgv72l">3</dir>
-                     <dir xml:id="d11eum4u" startid="#nn28rhg">3</dir>
                   </measure>
                   <measure xml:id="m102ny1g" n="8">
                      <staff xml:id="m8s1" n="1">
@@ -164,8 +162,7 @@
                      </staff>
                      <staff xml:id="m8s2" n="2">
                         <layer xml:id="m8s2l1" n="1">
-                           <note xml:id="n1mtiukf" dur="1" pname="g" oct="3" stem.dir="down" />
-                           <note xml:id="nucmgns" dur="1" pname="g" oct="3" />
+                           <note xml:id="n1mtiukf" dur="breve" pname="g" oct="3" stem.dir="down" />
                            <note xml:id="n1iu1lws" dur="1" pname="g" oct="3" stem.dir="down" />
                         </layer>
                      </staff>
@@ -221,7 +218,7 @@
                         <layer xml:id="m12s1l1" n="1">
                            <note xml:id="naybnb4" dur="2" pname="d" oct="4" stem.dir="down" />
                            <note xml:id="n1ejjzf8" dur="2" pname="c" oct="4" stem.dir="down">
-                              <accid xml:id="a1facl5d" accid="s" />
+                              <accid xml:id="a1facl5d" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>

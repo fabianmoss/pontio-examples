@@ -37,7 +37,7 @@
          <mdiv>
             <score>
                <scoreDef>
-                  <staffGrp>
+                  <staffGrp bar.thru="true">
                      <staffDef n="1" lines="5" trans.diat="-7" trans.semi="-12">
                         <instrDef midi.instrnum="0" />
                         <clef shape="G" line="2" dis="8" dis.place="below" />
@@ -96,7 +96,7 @@
                         <layer xml:id="m4s1l1" n="1">
                            <note xml:id="n10ujfqd" dur="2" pname="d" oct="4" stem.dir="down" />
                            <note xml:id="napiww8" dur="2" pname="c" oct="4" stem.dir="down">
-                              <accid xml:id="afoclig" accid="s" />
+                              <accid xml:id="afoclig" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>
@@ -172,7 +172,7 @@
                         <layer xml:id="m9s1l1" n="1">
                            <note xml:id="n4w6s06" dur="2" pname="d" oct="4" stem.dir="down" />
                            <note xml:id="n1mtiukf" dur="2" pname="c" oct="4" stem.dir="down">
-                              <accid xml:id="aucmgns" accid="s" />
+                              <accid xml:id="aucmgns" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>

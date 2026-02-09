@@ -37,7 +37,7 @@
          <mdiv>
             <score>
                <scoreDef>
-                  <staffGrp>
+                  <staffGrp bar.thru="true">
                      <staffDef n="1" lines="5">
                         <label>Canto.</label>
                         <instrDef midi.instrnum="0" />
@@ -173,7 +173,7 @@
                         <layer xml:id="m5s2l1" n="1">
                            <note xml:id="nveaidx" dur="2" pname="a" oct="3" stem.dir="up" />
                            <note xml:id="nii9r80" dur="2" pname="g" oct="3" stem.dir="up">
-                              <accid xml:id="a2b47h1" accid="s" />
+                              <accid xml:id="a2b47h1" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>
@@ -228,7 +228,7 @@
                         <layer xml:id="m7s3l1" n="1">
                            <note xml:id="n1mw6eci" dur="2" pname="a" oct="3" stem.dir="up" />
                            <note xml:id="nnun1dj" dur="2" pname="g" oct="3" stem.dir="up">
-                              <accid xml:id="a12psxqg" accid="s" />
+                              <accid xml:id="a12psxqg" accid="s" func="edit" />
                            </note>
                         </layer>
                      </staff>

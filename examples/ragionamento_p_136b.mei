@@ -38,11 +38,11 @@
             <score>
                <scoreDef>
                   <staffGrp>
-                     <staffDef n="1" lines="5" meter.sym="common" trans.diat="-7" trans.semi="-12">
+                     <staffDef n="1" lines="5" mensur.sign="C" mensur.slash="1" trans.diat="-7" trans.semi="-12">
                         <instrDef midi.instrnum="0" />
                         <clef shape="G" line="2" dis="8" dis.place="below" />
                      </staffDef>
-                     <staffDef n="2" lines="5" meter.sym="common">
+                     <staffDef n="2" lines="5" mensur.sign="C">
                         <instrDef midi.instrnum="0" />
                         <clef shape="F" line="4" />
                      </staffDef>
@@ -53,13 +53,13 @@
                   <measure xml:id="m1j1fv6k" n="1">
                      <staff xml:id="m1s1" n="1">
                         <layer xml:id="m1s1l1" n="1">
-                           <tuplet xml:id="tef3is2" num="4" numbase="1">
+                           <tuplet xml:id="tef3is2" num="4" numbase="1" bracket.visible="false" num.visible="false" >
                               <note xml:id="nz67rb1" dots="1" dur="2" pname="d" oct="4" stem.dir="down" />
                               <note xml:id="n1tf68nd" dur="4" pname="e" oct="4" stem.dir="down" />
                               <note xml:id="nc5bkr3" dur="2" pname="f" oct="4" stem.dir="down" />
                               <note xml:id="n1rf1830" dur="2" pname="d" oct="4" stem.dir="down" />
                            </tuplet>
-                           <tuplet xml:id="t1wsn1mm" num="4" numbase="1">
+                           <tuplet xml:id="t1wsn1mm" num="4" numbase="1" bracket.visible="false" num.visible="false">
                               <note xml:id="n17m9ayv" dur="2" pname="c" oct="4" stem.dir="down" />
                               <note xml:id="nm8r9kb" dur="2" pname="f" oct="4" stem.dir="down" />
                               <note xml:id="n1jphv4w" dur="2" pname="e" oct="4" stem.dir="down" />
@@ -68,7 +68,7 @@
                         </layer>
                      </staff>
                      <staff xml:id="m1s2" n="2">
-                        <layer xml:id="m1s2l1" n="1">
+                        <layer xml:id="m1s2l1" n="1" bracket.visible="false" num.visible="false">
                            <note xml:id="n1npm2s2" dur="2" pname="d" oct="3" stem.dir="down" />
                            <note xml:id="n1n1lc36" dur="2" pname="a" oct="3" stem.dir="down" />
                         </layer>
@@ -77,7 +77,7 @@
                   <measure xml:id="mu9i1ai" n="2">
                      <staff xml:id="m2s1" n="1">
                         <layer xml:id="m2s1l1" n="1">
-                           <tuplet xml:id="t1mamm1v" num="4" numbase="1">
+                           <tuplet xml:id="t1mamm1v" num="4" numbase="1" bracket.visible="false" num.visible="false">
                               <note xml:id="n10ujfqd" dur="2" pname="d" oct="4" stem.dir="down" />
                               <note xml:id="napiww8" dur="4" pname="g" oct="3" stem.dir="up" />
                               <note xml:id="nfoclig" dur="4" pname="a" oct="3" stem.dir="up" />
@@ -86,7 +86,7 @@
                               <note xml:id="n19ujioo" dur="4" pname="d" oct="4" stem.dir="down" />
                               <note xml:id="n12szhra" dur="4" pname="e" oct="4" stem.dir="down" />
                            </tuplet>
-                           <tuplet xml:id="tmslay7" num="4" numbase="1">
+                           <tuplet xml:id="tmslay7" num="4" numbase="1" bracket.visible="false" num.visible="false">
                               <note xml:id="nl8dy6f" dur="1" pname="f" oct="4" stem.dir="down" />
                               <note xml:id="nc2rw3t" dur="1" pname="f" oct="4" stem.dir="down" />
                            </tuplet>
@@ -111,6 +111,8 @@
                            <note xml:id="n1ogt6y4" dur="1" pname="a" oct="3" stem.dir="down" />
                         </layer>
                      </staff>
+                     <fermata xml:id="f8s0v6s1" staff="1" startid="#n1a25qt6"/>
+                     <fermata xml:id="fvupdqw1" staff="2" startid="#n1ogt6y4"/>
                   </measure>
                </section>
             </score>

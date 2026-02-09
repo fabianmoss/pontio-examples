@@ -38,7 +38,7 @@
             <score>
                <scoreDef>
                   <staffGrp>
-                     <staffDef n="1" lines="5" meter.count="2" meter.unit="1" trans.diat="-7" trans.semi="-12">
+                     <staffDef n="1" lines="5" mensur.sign="O" trans.diat="-7" trans.semi="-12">
                         <clef shape="G" line="2" dis="8" dis.place="below" />
                      </staffDef>
                   </staffGrp>
@@ -49,56 +49,18 @@
                      <staff xml:id="m1s1" n="1">
                         <layer xml:id="m1s1l1" n="1">
                            <note xml:id="nef3is2" dur="breve" pname="a" oct="3" stem.dir="up" />
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure xml:id="mz67rb1" n="2">
-                     <staff xml:id="m2s1" n="1">
-                        <layer xml:id="m2s1l1" n="1">
-                           <tuplet xml:id="t1tf68nd" num="3" numbase="2">
-                              <note xml:id="nc5bkr3" dur="1" pname="b" oct="3" stem.dir="down" />
-                              <note xml:id="n1rf1830" dur="1" pname="c" oct="4" stem.dir="down" />
-                              <note xml:id="n1wsn1mm" dur="1" pname="d" oct="4" stem.dir="down" />
-                           </tuplet>
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure xml:id="m17m9ayv" n="3">
-                     <staff xml:id="m3s1" n="1">
-                        <layer xml:id="m3s1l1" n="1">
-                           <tuplet xml:id="tm8r9kb" num="3" numbase="2">
-                              <note xml:id="n1jphv4w" dur="1" pname="e" oct="4" stem.dir="down" />
-                              <note xml:id="nk994tk" dur="1" pname="c" oct="4" stem.dir="down" />
-                              <note xml:id="n1npm2s2" dur="1" pname="a" oct="3" stem.dir="up" />
-                           </tuplet>
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure xml:id="m1n1lc36" n="4">
-                     <staff xml:id="m4s1" n="1">
-                        <layer xml:id="m4s1l1" n="1">
-                           <tuplet xml:id="tu9i1ai" num="3" numbase="2">
-                              <note xml:id="n1mamm1v" dur="1" pname="d" oct="4" stem.dir="down" />
-                              <note xml:id="n10ujfqd" dur="breve" pname="c" oct="4" stem.dir="down" />
-                           </tuplet>
-                        </layer>
-                     </staff>
-                  </measure>
-                  <measure xml:id="mapiww8" n="5">
-                     <staff xml:id="m5s1" n="1">
-                        <layer xml:id="m5s1l1" n="1">
-                           <tuplet xml:id="tfoclig" num="3" numbase="2">
-                              <rest xml:id="rc7fvcu" dur="breve" />
-                              <note xml:id="ny7bude" dur="1" pname="a" oct="3" stem.dir="up" />
-                           </tuplet>
-                        </layer>
-                     </staff>
-                  </measure>
-                  <sb />
-                  <measure xml:id="m19ujioo" right="end" n="6">
-                     <staff xml:id="m6s1" n="1">
-                        <layer xml:id="m6s1l1" n="1">
-                           <note xml:id="n12szhra" dur="breve" pname="a" oct="3" stem.dir="up" />
+                           <note xml:id="nc5bkr3" dur="1" pname="b" oct="3" stem.dir="down" />
+                           <note xml:id="n1rf1830" dur="1" pname="c" oct="4" stem.dir="down" />
+                           <note xml:id="n1wsn1mm" dur="1" pname="d" oct="4" stem.dir="down" />
+                           <note xml:id="n1jphv4w" dur="1" pname="e" oct="4" stem.dir="down" />
+                           <note xml:id="nk994tk" dur="1" pname="c" oct="4" stem.dir="down" />
+                           <note xml:id="n1npm2s2" dur="1" pname="a" oct="3" stem.dir="up" />
+                           <note xml:id="n1mamm1v" dur="1" pname="d" oct="4" stem.dir="down" />
+                           <note xml:id="n10ujfqd" dur="breve" pname="c" oct="4" stem.dir="down" />
+                           <rest xml:id="rc7fvcu" dur="1" />
+                           <rest xml:id="rc7fvcv" dur="1" />
+                           <note xml:id="ny7bude" dur="1" pname="a" oct="3" stem.dir="up" />
+                           <note xml:id="n12szhra" dur="long" pname="a" oct="3" stem.dir="up" />
                         </layer>
                      </staff>
                   </measure>
